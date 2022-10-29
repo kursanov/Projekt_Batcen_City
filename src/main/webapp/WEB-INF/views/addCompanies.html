@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Add companies</title>
+</head>
+<body>
+
+<div style="text-align: center; margin-top: 300px; font-size: 40px">
+
+    <form action=""
+          th:action="@{/companies/saveCompany}"
+          th:object="${company}"
+          method="post"
+          style="text-align: center; margin-top: 300px; font-size: 40px">
+        <input type="hidden" name="id" th:field="*{companyId}">
+        <input type="text" name="CompanyNane" th:field="*{companyName}" placeholder="Company Name">
+        <input type="text" name="LocatedCountry" th:field="*{locatedCountry}" placeholder="Located Country">
+        <input type="submit" value="Add Company">
+
+    </form>
+
+</div>
+
+</body>
+</html>
