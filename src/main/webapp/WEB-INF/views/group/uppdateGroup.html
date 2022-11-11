@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form th:method="patch"  th:action="@{/groups/saveUpdateGroup}" th:object="${group}"
+      style="text-align: center; margin-top: 300px; font-size: 40px">
+    <input type="hidden" name="id" th:field="*{groupId}">
+    <input type="text" th:value="${group.groupName}" th:field="*{groupName}">
+    <input type="text" th:value="${group.startOfDate}" th:field="*{startOfDate}">
+    <input type="text" th:value="${group.finishOfDate}" th:field="*{finishOfDate}">
+    <select th:field="${group.courseId}">
+        <option th:each="course:${listCourse}"
+                th:value="${course.getCourseId()}"
+                th:text="${course.getCourseName()}">
+        </option>
+    </select>
+    <br>
+    <input type="submit" value="Update">
+</form>
+
+</body>
+</html>

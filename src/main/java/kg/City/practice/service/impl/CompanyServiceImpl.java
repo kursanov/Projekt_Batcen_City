@@ -1,16 +1,18 @@
-package kg.City.practice.service;
+package kg.City.practice.service.impl;
 
 import kg.City.practice.dao.CompanyDao;
 import kg.City.practice.model.Company;
+import kg.City.practice.service.CompanyService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 @Service
-public class CompanyServiceImpl implements CompanyService{
-
+public class CompanyServiceImpl implements CompanyService {
     private final CompanyDao companyDao;
 
+    @Autowired
     public CompanyServiceImpl(CompanyDao companyDao) {
         this.companyDao = companyDao;
     }
@@ -23,11 +25,10 @@ public class CompanyServiceImpl implements CompanyService{
     @Override
     public void addCompany(Company company) {
         companyDao.addCompany(company);
-
     }
 
     @Override
-    public Company getCompanyById(long id) {
+    public Company getCompanyById(Long id) {
         return companyDao.getCompanyById(id);
     }
 

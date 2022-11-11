@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Course</title>
+</head>
+<body>
+<div style="text-align: center; margin-top: 300px; font-size: 40px">
+
+    <form
+            th:action="@{/courses/saveCourse}"
+            th:object="${course}"
+            th:method="POST"
+            style="text-align: center; margin-top: 300px; font-size: 40px">
+        <input type="hidden" name="id" th:field="*{courseId}">
+        <input type="text" name="courseName" th:field="*{courseName}" placeholder="Course Name">
+        <input type="text" name="durationCourse" th:field="*{duration}" placeholder="Duration Course">
+        <select th:field="${course.companyId}">
+            <option th:each="company:${listCompany}"
+                    th:value="${company.getCompanyId()}"
+                    th:text="${company.getCompanyName()}"
+            >
+            </option>
+        </select>
+        <input type="submit" value="Add Course">
+
+    </form>
+
+</div>
+
+</body>
+</html>

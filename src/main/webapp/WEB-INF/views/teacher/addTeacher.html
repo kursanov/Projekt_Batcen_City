@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div style="text-align: center; margin-top: 300px; font-size: 40px">
+    <form th:action="@{/teachers/saveTeacher}"
+          th:object="${teacher}"
+          method="POST"
+          style="text-align: center; margin-top: 300px; font-size: 40px">
+        <input type="hidden" name="id" th:field="*{teacherId}">
+        <input type="text" name="teacherFirstName" th:field="*{teacherFirstName}" placeholder="Teacher First Name">
+        <input type="text" name="teacherEmail" th:field="*{teacherEmail}" placeholder="Teacher Email ">
+        <input type="text" name="teacherLastName" th:field="*{teacherLastName}" placeholder="Teacher Last Name">
+        <select th:field="${teacher.courseId}">
+            <option th:each="teacher:${listCourse}"
+                    th:value="${teacher.getCourseId()}"
+                    th:text="${teacher.getCourseName()}"
+            >
+            </option>
+        </select>
+        <input type="submit" value="Add Teachers">
+
+    </form>
+
+</div>
+
+</body>
+</html>

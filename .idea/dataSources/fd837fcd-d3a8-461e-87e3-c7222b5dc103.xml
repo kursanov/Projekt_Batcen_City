@@ -3,7 +3,7 @@
   <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.43">
     <root id="1">
       <DateStyle>dmy</DateStyle>
-      <IntrospectionStateNumber>2881</IntrospectionStateNumber>
+      <IntrospectionStateNumber>4016</IntrospectionStateNumber>
       <ServerVersion>14.5</ServerVersion>
       <StartupTime>1666280603</StartupTime>
       <TimeZones>true ACDT
@@ -48,7 +48,7 @@ false Africa/Brazzaville
 false Africa/Bujumbura
 false Africa/Cairo
 false Africa/Casablanca
-true Africa/Ceuta
+false Africa/Ceuta
 false Africa/Conakry
 false Africa/Dakar
 false Africa/Dar_es_Salaam
@@ -87,8 +87,8 @@ false Africa/Timbuktu
 false Africa/Tripoli
 false Africa/Tunis
 false Africa/Windhoek
-true America/Adak
-true America/Anchorage
+false America/Adak
+false America/Anchorage
 false America/Anguilla
 false America/Antigua
 false America/Araguaina
@@ -108,26 +108,26 @@ false America/Argentina/Ushuaia
 false America/Aruba
 true America/Asuncion
 false America/Atikokan
-true America/Atka
+false America/Atka
 false America/Bahia
-true America/Bahia_Banderas
+false America/Bahia_Banderas
 false America/Barbados
 false America/Belem
 false America/Belize
 false America/Blanc-Sablon
 false America/Boa_Vista
 false America/Bogota
-true America/Boise
+false America/Boise
 false America/Buenos_Aires
-true America/Cambridge_Bay
+false America/Cambridge_Bay
 false America/Campo_Grande
 false America/Cancun
 false America/Caracas
 false America/Catamarca
 false America/Cayenne
 false America/Cayman
-true America/Chicago
-true America/Chihuahua
+false America/Chicago
+false America/Chihuahua
 false America/Coral_Harbour
 false America/Cordoba
 false America/Costa_Rica
@@ -137,123 +137,123 @@ false America/Curacao
 false America/Danmarkshavn
 false America/Dawson
 false America/Dawson_Creek
-true America/Denver
-true America/Detroit
+false America/Denver
+false America/Detroit
 false America/Dominica
-true America/Edmonton
+false America/Edmonton
 false America/Eirunepe
 false America/El_Salvador
-true America/Ensenada
+false America/Ensenada
 false America/Fort_Nelson
-true America/Fort_Wayne
+false America/Fort_Wayne
 false America/Fortaleza
-true America/Glace_Bay
-true America/Godthab
-true America/Goose_Bay
-true America/Grand_Turk
+false America/Glace_Bay
+false America/Godthab
+false America/Goose_Bay
+false America/Grand_Turk
 false America/Grenada
 false America/Guadeloupe
 false America/Guatemala
 false America/Guayaquil
 false America/Guyana
-true America/Halifax
-true America/Havana
+false America/Halifax
+false America/Havana
 false America/Hermosillo
-true America/Indiana/Indianapolis
-true America/Indiana/Knox
-true America/Indiana/Marengo
-true America/Indiana/Petersburg
-true America/Indiana/Tell_City
-true America/Indiana/Vevay
-true America/Indiana/Vincennes
-true America/Indiana/Winamac
-true America/Indianapolis
-true America/Inuvik
-true America/Iqaluit
+false America/Indiana/Indianapolis
+false America/Indiana/Knox
+false America/Indiana/Marengo
+false America/Indiana/Petersburg
+false America/Indiana/Tell_City
+false America/Indiana/Vevay
+false America/Indiana/Vincennes
+false America/Indiana/Winamac
+false America/Indianapolis
+false America/Inuvik
+false America/Iqaluit
 false America/Jamaica
 false America/Jujuy
-true America/Juneau
-true America/Kentucky/Louisville
-true America/Kentucky/Monticello
-true America/Knox_IN
+false America/Juneau
+false America/Kentucky/Louisville
+false America/Kentucky/Monticello
+false America/Knox_IN
 false America/Kralendijk
 false America/La_Paz
 false America/Lima
-true America/Los_Angeles
-true America/Louisville
+false America/Los_Angeles
+false America/Louisville
 false America/Lower_Princes
 false America/Maceio
 false America/Managua
 false America/Manaus
 false America/Marigot
 false America/Martinique
-true America/Matamoros
-true America/Mazatlan
+false America/Matamoros
+false America/Mazatlan
 false America/Mendoza
-true America/Menominee
-true America/Merida
-true America/Metlakatla
-true America/Mexico_City
-true America/Miquelon
-true America/Moncton
-true America/Monterrey
+false America/Menominee
+false America/Merida
+false America/Metlakatla
+false America/Mexico_City
+false America/Miquelon
+false America/Moncton
+false America/Monterrey
 false America/Montevideo
-true America/Montreal
+false America/Montreal
 false America/Montserrat
-true America/Nassau
-true America/New_York
-true America/Nipigon
-true America/Nome
+false America/Nassau
+false America/New_York
+false America/Nipigon
+false America/Nome
 false America/Noronha
-true America/North_Dakota/Beulah
-true America/North_Dakota/Center
-true America/North_Dakota/New_Salem
-true America/Nuuk
-true America/Ojinaga
+false America/North_Dakota/Beulah
+false America/North_Dakota/Center
+false America/North_Dakota/New_Salem
+false America/Nuuk
+false America/Ojinaga
 false America/Panama
-true America/Pangnirtung
+false America/Pangnirtung
 false America/Paramaribo
 false America/Phoenix
-true America/Port-au-Prince
+false America/Port-au-Prince
 false America/Port_of_Spain
 false America/Porto_Acre
 false America/Porto_Velho
 false America/Puerto_Rico
 false America/Punta_Arenas
-true America/Rainy_River
-true America/Rankin_Inlet
+false America/Rainy_River
+false America/Rankin_Inlet
 false America/Recife
 false America/Regina
-true America/Resolute
+false America/Resolute
 false America/Rio_Branco
 false America/Rosario
-true America/Santa_Isabel
+false America/Santa_Isabel
 false America/Santarem
 true America/Santiago
 false America/Santo_Domingo
 false America/Sao_Paulo
-true America/Scoresbysund
-true America/Shiprock
-true America/Sitka
+false America/Scoresbysund
+false America/Shiprock
+false America/Sitka
 false America/St_Barthelemy
-true America/St_Johns
+false America/St_Johns
 false America/St_Kitts
 false America/St_Lucia
 false America/St_Thomas
 false America/St_Vincent
 false America/Swift_Current
 false America/Tegucigalpa
-true America/Thule
-true America/Thunder_Bay
-true America/Tijuana
-true America/Toronto
+false America/Thule
+false America/Thunder_Bay
+false America/Tijuana
+false America/Toronto
 false America/Tortola
-true America/Vancouver
+false America/Vancouver
 false America/Virgin
 false America/Whitehorse
-true America/Winnipeg
-true America/Yakutat
-true America/Yellowknife
+false America/Winnipeg
+false America/Yakutat
+false America/Yellowknife
 false Antarctica/Casey
 false Antarctica/Davis
 false Antarctica/DumontDUrville
@@ -264,9 +264,9 @@ false Antarctica/Palmer
 false Antarctica/Rothera
 true Antarctica/South_Pole
 false Antarctica/Syowa
-true Antarctica/Troll
+false Antarctica/Troll
 false Antarctica/Vostok
-true Arctic/Longyearbyen
+false Arctic/Longyearbyen
 false Asia/Aden
 false Asia/Almaty
 false Asia/Amman
@@ -281,7 +281,7 @@ false Asia/Bahrain
 false Asia/Baku
 false Asia/Bangkok
 false Asia/Barnaul
-true Asia/Beirut
+false Asia/Beirut
 false Asia/Bishkek
 false Asia/Brunei
 false Asia/Calcutta
@@ -296,7 +296,7 @@ false Asia/Dhaka
 false Asia/Dili
 false Asia/Dubai
 false Asia/Dushanbe
-true Asia/Famagusta
+false Asia/Famagusta
 false Asia/Gaza
 false Asia/Harbin
 false Asia/Hebron
@@ -307,7 +307,7 @@ false Asia/Irkutsk
 false Asia/Istanbul
 false Asia/Jakarta
 false Asia/Jayapura
-true Asia/Jerusalem
+false Asia/Jerusalem
 false Asia/Kabul
 false Asia/Kamchatka
 false Asia/Karachi
@@ -326,7 +326,7 @@ false Asia/Magadan
 false Asia/Makassar
 false Asia/Manila
 false Asia/Muscat
-true Asia/Nicosia
+false Asia/Nicosia
 false Asia/Novokuznetsk
 false Asia/Novosibirsk
 false Asia/Omsk
@@ -350,7 +350,7 @@ false Asia/Taipei
 false Asia/Tashkent
 false Asia/Tbilisi
 false Asia/Tehran
-true Asia/Tel_Aviv
+false Asia/Tel_Aviv
 false Asia/Thimbu
 false Asia/Thimphu
 false Asia/Tokyo
@@ -366,14 +366,14 @@ false Asia/Yakutsk
 false Asia/Yangon
 false Asia/Yekaterinburg
 false Asia/Yerevan
-true Atlantic/Azores
-true Atlantic/Bermuda
-true Atlantic/Canary
+false Atlantic/Azores
+false Atlantic/Bermuda
+false Atlantic/Canary
 false Atlantic/Cape_Verde
-true Atlantic/Faeroe
-true Atlantic/Faroe
-true Atlantic/Jan_Mayen
-true Atlantic/Madeira
+false Atlantic/Faeroe
+false Atlantic/Faroe
+false Atlantic/Jan_Mayen
+false Atlantic/Madeira
 false Atlantic/Reykjavik
 false Atlantic/South_Georgia
 false Atlantic/St_Helena
@@ -430,19 +430,19 @@ true CLST
 true CLT
 false COT
 false CST
-true CST6CDT
+false CST6CDT
 false CXT
-true Canada/Atlantic
-true Canada/Central
-true Canada/Eastern
-true Canada/Mountain
-true Canada/Newfoundland
-true Canada/Pacific
+false Canada/Atlantic
+false Canada/Central
+false Canada/Eastern
+false Canada/Mountain
+false Canada/Newfoundland
+false Canada/Pacific
 false Canada/Saskatchewan
 false Canada/Yukon
 true Chile/Continental
 true Chile/EasterIsland
-true Cuba
+false Cuba
 false DAVT
 false DDUT
 true EASST
@@ -455,9 +455,9 @@ true EETDST
 true EGST
 false EGT
 false EST
-true EST5EDT
+false EST5EDT
 false Egypt
-false Eire
+true Eire
 false Etc/GMT
 false Etc/GMT+0
 false Etc/GMT+1
@@ -493,69 +493,69 @@ false Etc/UCT
 false Etc/UTC
 false Etc/Universal
 false Etc/Zulu
-true Europe/Amsterdam
-true Europe/Andorra
+false Europe/Amsterdam
+false Europe/Andorra
 false Europe/Astrakhan
-true Europe/Athens
-true Europe/Belfast
-true Europe/Belgrade
-true Europe/Berlin
-true Europe/Bratislava
-true Europe/Brussels
-true Europe/Bucharest
-true Europe/Budapest
-true Europe/Busingen
-true Europe/Chisinau
-true Europe/Copenhagen
-false Europe/Dublin
-true Europe/Gibraltar
-true Europe/Guernsey
-true Europe/Helsinki
-true Europe/Isle_of_Man
+false Europe/Athens
+false Europe/Belfast
+false Europe/Belgrade
+false Europe/Berlin
+false Europe/Bratislava
+false Europe/Brussels
+false Europe/Bucharest
+false Europe/Budapest
+false Europe/Busingen
+false Europe/Chisinau
+false Europe/Copenhagen
+true Europe/Dublin
+false Europe/Gibraltar
+false Europe/Guernsey
+false Europe/Helsinki
+false Europe/Isle_of_Man
 false Europe/Istanbul
-true Europe/Jersey
+false Europe/Jersey
 false Europe/Kaliningrad
-true Europe/Kiev
+false Europe/Kiev
 false Europe/Kirov
-true Europe/Lisbon
-true Europe/Ljubljana
-true Europe/London
-true Europe/Luxembourg
-true Europe/Madrid
-true Europe/Malta
-true Europe/Mariehamn
+false Europe/Lisbon
+false Europe/Ljubljana
+false Europe/London
+false Europe/Luxembourg
+false Europe/Madrid
+false Europe/Malta
+false Europe/Mariehamn
 false Europe/Minsk
-true Europe/Monaco
+false Europe/Monaco
 false Europe/Moscow
-true Europe/Nicosia
-true Europe/Oslo
-true Europe/Paris
-true Europe/Podgorica
-true Europe/Prague
-true Europe/Riga
-true Europe/Rome
+false Europe/Nicosia
+false Europe/Oslo
+false Europe/Paris
+false Europe/Podgorica
+false Europe/Prague
+false Europe/Riga
+false Europe/Rome
 false Europe/Samara
-true Europe/San_Marino
-true Europe/Sarajevo
+false Europe/San_Marino
+false Europe/Sarajevo
 false Europe/Saratov
 false Europe/Simferopol
-true Europe/Skopje
-true Europe/Sofia
-true Europe/Stockholm
-true Europe/Tallinn
-true Europe/Tirane
-true Europe/Tiraspol
+false Europe/Skopje
+false Europe/Sofia
+false Europe/Stockholm
+false Europe/Tallinn
+false Europe/Tirane
+false Europe/Tiraspol
 false Europe/Ulyanovsk
-true Europe/Uzhgorod
-true Europe/Vaduz
-true Europe/Vatican
-true Europe/Vienna
-true Europe/Vilnius
+false Europe/Uzhgorod
+false Europe/Vaduz
+false Europe/Vatican
+false Europe/Vienna
+false Europe/Vilnius
 false Europe/Volgograd
-true Europe/Warsaw
-true Europe/Zagreb
-true Europe/Zaporozhye
-true Europe/Zurich
+false Europe/Warsaw
+false Europe/Zagreb
+false Europe/Zaporozhye
+false Europe/Zurich
 false FET
 true FJST
 false FJT
@@ -566,8 +566,8 @@ false FNT
 false Factory
 false GALT
 false GAMT
-true GB
-true GB-Eire
+false GB
+false GB-Eire
 false GEST
 false GET
 false GFT
@@ -601,7 +601,7 @@ false Indian/Mauritius
 false Indian/Mayotte
 false Indian/Reunion
 false Iran
-true Israel
+false Israel
 false JAYT
 false JST
 false Jamaica
@@ -627,7 +627,7 @@ false MAWT
 true MDT
 true MEST
 true MESZ
-true MET
+false MET
 true METDST
 false MEZ
 false MHT
@@ -636,14 +636,14 @@ false MPT
 true MSD
 false MSK
 false MST
-true MST7MDT
+false MST7MDT
 true MUST
 false MUT
 false MVT
 false MYT
-true Mexico/BajaNorte
-true Mexico/BajaSur
-true Mexico/General
+false Mexico/BajaNorte
+false Mexico/BajaSur
+false Mexico/General
 true NDT
 false NFT
 false NOVST
@@ -656,7 +656,7 @@ true NZ-CHAT
 true NZDT
 false NZST
 false NZT
-true Navajo
+false Navajo
 false OMSST
 false OMST
 true PDT
@@ -673,7 +673,7 @@ false PMST
 false PONT
 false PRC
 false PST
-true PST8PDT
+false PST8PDT
 false PWT
 true PYST
 true PYT
@@ -721,8 +721,8 @@ false Pacific/Truk
 false Pacific/Wake
 false Pacific/Wallis
 false Pacific/Yap
-true Poland
-true Portugal
+false Poland
+false Portugal
 false RET
 false ROC
 false ROK
@@ -743,17 +743,17 @@ false Turkey
 false UCT
 true ULAST
 false ULAT
-true US/Alaska
-true US/Aleutian
+false US/Alaska
+false US/Aleutian
 false US/Arizona
-true US/Central
-true US/East-Indiana
-true US/Eastern
+false US/Central
+false US/East-Indiana
+false US/Eastern
 false US/Hawaii
-true US/Indiana-Starke
-true US/Michigan
-true US/Mountain
-true US/Pacific
+false US/Indiana-Starke
+false US/Michigan
+false US/Mountain
+false US/Pacific
 false US/Samoa
 false UT
 false UTC
@@ -773,7 +773,7 @@ false WAKT
 false WAST
 false WAT
 true WDT
-true WET
+false WET
 true WETDST
 false WFT
 true WGST
@@ -805,10 +805,9 @@ false Zulu
 13388||10|C|G
 13388||-9223372036854775808|U|G
 13388||10|U|G</Grants>
-      <IntrospectionStateNumber>2881</IntrospectionStateNumber>
+      <IntrospectionStateNumber>4016</IntrospectionStateNumber>
       <ObjectId>13754</ObjectId>
       <Relations>sequence|table|16499|16500|1
-sequence|table|16870|16871|1
 sequence|table|16914|16915|1
 sequence|table|20327|20328|1
 sequence|table|20334|20335|1
@@ -4247,51 +4246,51 @@ sequence|table|20359|20360|1
     <schema id="264" parent="3" name="public">
       <Comment>standard public schema</Comment>
       <Current>1</Current>
-      <IntrospectionStateNumber>2881</IntrospectionStateNumber>
+      <IntrospectionStateNumber>4016</IntrospectionStateNumber>
       <ObjectId>2200</ObjectId>
       <StateNumber>527</StateNumber>
       <OwnerName>postgres</OwnerName>
     </schema>
-    <sequence id="265" parent="264" name="childrens_id_seq">
+    <sequence id="265" parent="264" name="hibernate_sequence">
+      <DataType>bigint|0s</DataType>
+      <ObjectId>22088</ObjectId>
+      <StateNumber>3940</StateNumber>
+      <OwnerName>postgres</OwnerName>
+    </sequence>
+    <sequence id="266" parent="264" name="childrens_id_seq">
       <DataType>integer|0s</DataType>
       <ObjectId>20327</ObjectId>
       <StateNumber>2865</StateNumber>
       <OwnerName>postgres</OwnerName>
     </sequence>
-    <sequence id="266" parent="264" name="departments_id_seq">
+    <sequence id="267" parent="264" name="departments_id_seq">
       <DataType>integer|0s</DataType>
       <ObjectId>20334</ObjectId>
       <StateNumber>2866</StateNumber>
       <OwnerName>postgres</OwnerName>
     </sequence>
-    <sequence id="267" parent="264" name="details_id_seq">
+    <sequence id="268" parent="264" name="details_id_seq">
       <DataType>integer|0s</DataType>
       <ObjectId>20341</ObjectId>
       <StateNumber>2867</StateNumber>
       <OwnerName>postgres</OwnerName>
     </sequence>
-    <sequence id="268" parent="264" name="employees_id_seq">
+    <sequence id="269" parent="264" name="employees_id_seq">
       <DataType>integer|0s</DataType>
       <ObjectId>20350</ObjectId>
       <StateNumber>2868</StateNumber>
       <OwnerName>postgres</OwnerName>
     </sequence>
-    <sequence id="269" parent="264" name="products_id_seq">
+    <sequence id="270" parent="264" name="products_id_seq">
       <DataType>integer|0s</DataType>
       <ObjectId>16499</ObjectId>
       <StateNumber>857</StateNumber>
       <OwnerName>postgres</OwnerName>
     </sequence>
-    <sequence id="270" parent="264" name="sections_id_seq">
+    <sequence id="271" parent="264" name="sections_id_seq">
       <DataType>integer|0s</DataType>
       <ObjectId>20359</ObjectId>
       <StateNumber>2869</StateNumber>
-      <OwnerName>postgres</OwnerName>
-    </sequence>
-    <sequence id="271" parent="264" name="students_id_seq">
-      <DataType>integer|0s</DataType>
-      <ObjectId>16870</ObjectId>
-      <StateNumber>1424</StateNumber>
       <OwnerName>postgres</OwnerName>
     </sequence>
     <sequence id="272" parent="264" name="user1_id_seq">
@@ -4318,75 +4317,105 @@ sequence|table|20359|20360|1
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>postgres</OwnerName>
     </table>
-    <table id="276" parent="264" name="countries">
+    <table id="276" parent="264" name="companies">
+      <ObjectId>22089</ObjectId>
+      <StateNumber>3947</StateNumber>
+      <AccessMethodId>2</AccessMethodId>
+      <OwnerName>postgres</OwnerName>
+    </table>
+    <table id="277" parent="264" name="countries">
       <ObjectId>16820</ObjectId>
       <StateNumber>1286</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>postgres</OwnerName>
     </table>
-    <table id="277" parent="264" name="departments">
+    <table id="278" parent="264" name="courses">
+      <ObjectId>22096</ObjectId>
+      <StateNumber>3988</StateNumber>
+      <AccessMethodId>2</AccessMethodId>
+      <OwnerName>postgres</OwnerName>
+    </table>
+    <table id="279" parent="264" name="departments">
       <ObjectId>20335</ObjectId>
       <StateNumber>2872</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>postgres</OwnerName>
     </table>
-    <table id="278" parent="264" name="details">
+    <table id="280" parent="264" name="details">
       <ObjectId>20342</ObjectId>
       <StateNumber>2873</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>postgres</OwnerName>
     </table>
-    <table id="279" parent="264" name="employees">
+    <table id="281" parent="264" name="employees">
       <ObjectId>20351</ObjectId>
       <StateNumber>2872</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>postgres</OwnerName>
     </table>
-    <table id="280" parent="264" name="mayor">
+    <table id="282" parent="264" name="groups">
+      <ObjectId>22103</ObjectId>
+      <StateNumber>3948</StateNumber>
+      <AccessMethodId>2</AccessMethodId>
+      <OwnerName>postgres</OwnerName>
+    </table>
+    <table id="283" parent="264" name="groups_courses">
+      <ObjectId>22110</ObjectId>
+      <StateNumber>3948</StateNumber>
+      <AccessMethodId>2</AccessMethodId>
+      <OwnerName>postgres</OwnerName>
+    </table>
+    <table id="284" parent="264" name="mayor">
       <ObjectId>16765</ObjectId>
       <StateNumber>1286</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>postgres</OwnerName>
     </table>
-    <table id="281" parent="264" name="products">
+    <table id="285" parent="264" name="products">
       <ObjectId>16500</ObjectId>
       <StateNumber>857</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>postgres</OwnerName>
     </table>
-    <table id="282" parent="264" name="sections">
+    <table id="286" parent="264" name="sections">
       <ObjectId>20360</ObjectId>
       <StateNumber>2870</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>postgres</OwnerName>
     </table>
-    <table id="283" parent="264" name="students">
-      <ObjectId>16871</ObjectId>
-      <StateNumber>1424</StateNumber>
+    <table id="287" parent="264" name="students">
+      <ObjectId>22113</ObjectId>
+      <StateNumber>3950</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>postgres</OwnerName>
     </table>
-    <table id="284" parent="264" name="user1">
+    <table id="288" parent="264" name="teachers">
+      <ObjectId>22120</ObjectId>
+      <StateNumber>3990</StateNumber>
+      <AccessMethodId>2</AccessMethodId>
+      <OwnerName>postgres</OwnerName>
+    </table>
+    <table id="289" parent="264" name="user1">
       <ObjectId>16915</ObjectId>
       <StateNumber>1548</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>postgres</OwnerName>
     </table>
-    <column id="285" parent="273" name="child_id">
+    <column id="290" parent="273" name="child_id">
       <DataType>integer|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
       <StateNumber>2864</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="286" parent="273" name="section_id">
+    <column id="291" parent="273" name="section_id">
       <DataType>integer|0s</DataType>
       <NotNull>1</NotNull>
       <Position>2</Position>
       <StateNumber>2864</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <foreign-key id="287" parent="273" name="fkjgtck0emtifew08y828d2mud7">
+    <foreign-key id="292" parent="273" name="fkjgtck0emtifew08y828d2mud7">
       <ColNames>child_id</ColNames>
       <ObjectId>20371</ObjectId>
       <RefColNames>id</RefColNames>
@@ -4396,7 +4425,7 @@ sequence|table|20359|20360|1
       <RefTableName>childrens</RefTableName>
       <RefTableKind>table</RefTableKind>
     </foreign-key>
-    <foreign-key id="288" parent="273" name="fk1yr95xrva1e1otnjq08v2ivgg">
+    <foreign-key id="293" parent="273" name="fk1yr95xrva1e1otnjq08v2ivgg">
       <ColNames>section_id</ColNames>
       <ObjectId>20366</ObjectId>
       <RefColNames>id</RefColNames>
@@ -4406,7 +4435,7 @@ sequence|table|20359|20360|1
       <RefTableName>sections</RefTableName>
       <RefTableKind>table</RefTableKind>
     </foreign-key>
-    <column id="289" parent="274" name="id">
+    <column id="294" parent="274" name="id">
       <DataType>integer|0s</DataType>
       <DefaultExpression>nextval(&apos;childrens_id_seq&apos;::regclass)</DefaultExpression>
       <NotNull>1</NotNull>
@@ -4414,20 +4443,20 @@ sequence|table|20359|20360|1
       <StateNumber>2865</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="290" parent="274" name="age">
+    <column id="295" parent="274" name="age">
       <DataType>integer|0s</DataType>
       <NotNull>1</NotNull>
       <Position>2</Position>
       <StateNumber>2865</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="291" parent="274" name="name">
+    <column id="296" parent="274" name="name">
       <DataType>varchar(255)|0s</DataType>
       <Position>3</Position>
       <StateNumber>2865</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <index id="292" parent="274" name="childrens_pkey">
+    <index id="297" parent="274" name="childrens_pkey">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>20332</ObjectId>
@@ -4436,40 +4465,40 @@ sequence|table|20359|20360|1
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
-    <key id="293" parent="274" name="childrens_pkey">
+    <key id="298" parent="274" name="childrens_pkey">
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>20333</ObjectId>
       <Primary>1</Primary>
       <StateNumber>2865</StateNumber>
       <UnderlyingIndexId>20332</UnderlyingIndexId>
     </key>
-    <column id="294" parent="275" name="id">
+    <column id="299" parent="275" name="id">
       <DataType>integer|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
       <StateNumber>1385</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="295" parent="275" name="name">
+    <column id="300" parent="275" name="name">
       <DataType>varchar(50)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>2</Position>
       <StateNumber>1385</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="296" parent="275" name="mayor_id">
+    <column id="301" parent="275" name="mayor_id">
       <DataType>integer|0s</DataType>
       <Position>3</Position>
       <StateNumber>1385</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="297" parent="275" name="country_id">
+    <column id="302" parent="275" name="country_id">
       <DataType>integer|0s</DataType>
       <Position>4</Position>
       <StateNumber>1385</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <foreign-key id="298" parent="275" name="cities_mayor_id_fkey">
+    <foreign-key id="303" parent="275" name="cities_mayor_id_fkey">
       <ColNames>mayor_id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>16852</ObjectId>
@@ -4480,7 +4509,7 @@ sequence|table|20359|20360|1
       <RefTableName>mayor</RefTableName>
       <RefTableKind>table</RefTableKind>
     </foreign-key>
-    <foreign-key id="299" parent="275" name="cities_country_id_fkey">
+    <foreign-key id="304" parent="275" name="cities_country_id_fkey">
       <ColNames>country_id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>16857</ObjectId>
@@ -4491,7 +4520,7 @@ sequence|table|20359|20360|1
       <RefTableName>countries</RefTableName>
       <RefTableKind>table</RefTableKind>
     </foreign-key>
-    <index id="300" parent="275" name="cities_pkey">
+    <index id="305" parent="275" name="cities_pkey">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>16850</ObjectId>
@@ -4500,34 +4529,69 @@ sequence|table|20359|20360|1
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
-    <key id="301" parent="275" name="cities_pkey">
+    <key id="306" parent="275" name="cities_pkey">
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>16851</ObjectId>
       <Primary>1</Primary>
       <StateNumber>1385</StateNumber>
       <UnderlyingIndexId>16850</UnderlyingIndexId>
     </key>
-    <column id="302" parent="276" name="id">
+    <column id="307" parent="276" name="companyid">
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StateNumber>3941</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="308" parent="276" name="company_name">
+      <DataType>varchar(255)|0s</DataType>
+      <Position>2</Position>
+      <StateNumber>3941</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="309" parent="276" name="located_country">
+      <DataType>varchar(255)|0s</DataType>
+      <Position>3</Position>
+      <StateNumber>3941</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="310" parent="276" name="companies_pkey">
+      <ColNames>companyid</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>22094</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>3941</StateNumber>
+      <Unique>1</Unique>
+      <AccessMethodId>403</AccessMethodId>
+    </index>
+    <key id="311" parent="276" name="companies_pkey">
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>22095</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>3941</StateNumber>
+      <UnderlyingIndexId>22094</UnderlyingIndexId>
+    </key>
+    <column id="312" parent="277" name="id">
       <DataType>integer|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
       <StateNumber>1286</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="303" parent="276" name="name">
+    <column id="313" parent="277" name="name">
       <DataType>varchar(50)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>2</Position>
       <StateNumber>1286</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="304" parent="276" name="mayor_id">
+    <column id="314" parent="277" name="mayor_id">
       <DataType>integer|0s</DataType>
       <Position>3</Position>
       <StateNumber>1286</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <foreign-key id="305" parent="276" name="countries_mayor_id_fkey">
+    <foreign-key id="315" parent="277" name="countries_mayor_id_fkey">
       <ColNames>mayor_id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>16827</ObjectId>
@@ -4538,7 +4602,7 @@ sequence|table|20359|20360|1
       <RefTableName>mayor</RefTableName>
       <RefTableKind>table</RefTableKind>
     </foreign-key>
-    <index id="306" parent="276" name="countries_pkey">
+    <index id="316" parent="277" name="countries_pkey">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>16823</ObjectId>
@@ -4547,7 +4611,7 @@ sequence|table|20359|20360|1
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
-    <index id="307" parent="276" name="countries_name_key">
+    <index id="317" parent="277" name="countries_name_key">
       <ColNames>name</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>16825</ObjectId>
@@ -4558,20 +4622,87 @@ sequence|table|20359|20360|1
       <CollationIds>100</CollationIds>
       <CollationParentNames>pg_catalog</CollationParentNames>
     </index>
-    <key id="308" parent="276" name="countries_pkey">
+    <key id="318" parent="277" name="countries_pkey">
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>16824</ObjectId>
       <Primary>1</Primary>
       <StateNumber>1286</StateNumber>
       <UnderlyingIndexId>16823</UnderlyingIndexId>
     </key>
-    <key id="309" parent="276" name="countries_name_key">
+    <key id="319" parent="277" name="countries_name_key">
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>16826</ObjectId>
       <StateNumber>1286</StateNumber>
       <UnderlyingIndexId>16825</UnderlyingIndexId>
     </key>
-    <column id="310" parent="277" name="id">
+    <column id="320" parent="278" name="id">
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StateNumber>3942</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="321" parent="278" name="course_name">
+      <DataType>varchar(255)|0s</DataType>
+      <Position>2</Position>
+      <StateNumber>3942</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="322" parent="278" name="course_duration">
+      <DataType>varchar(255)|0s</DataType>
+      <Position>3</Position>
+      <StateNumber>3942</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="323" parent="278" name="company_id">
+      <DataType>bigint|0s</DataType>
+      <Position>4</Position>
+      <StateNumber>3942</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="324" parent="278" name="teacher_teacherid">
+      <DataType>bigint|0s</DataType>
+      <Position>5</Position>
+      <StateNumber>3988</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <foreign-key id="325" parent="278" name="fkhw549cny8etg9h7nb63cc1k05">
+      <ColNames>company_id</ColNames>
+      <ObjectId>22127</ObjectId>
+      <RefColNames>companyid</RefColNames>
+      <RefColPositions>1</RefColPositions>
+      <StateNumber>3947</StateNumber>
+      <RefTableId>22089</RefTableId>
+      <RefTableName>companies</RefTableName>
+      <RefTableKind>table</RefTableKind>
+    </foreign-key>
+    <foreign-key id="326" parent="278" name="fk7p0r644iyuvgh73stx5oie9oy">
+      <ColNames>teacher_teacherid</ColNames>
+      <ObjectId>22163</ObjectId>
+      <RefColNames>teacherid</RefColNames>
+      <RefColPositions>1</RefColPositions>
+      <StateNumber>3989</StateNumber>
+      <RefTableId>22120</RefTableId>
+      <RefTableName>teachers</RefTableName>
+      <RefTableKind>table</RefTableKind>
+    </foreign-key>
+    <index id="327" parent="278" name="courses_pkey">
+      <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>22101</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>3942</StateNumber>
+      <Unique>1</Unique>
+      <AccessMethodId>403</AccessMethodId>
+    </index>
+    <key id="328" parent="278" name="courses_pkey">
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>22102</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>3942</StateNumber>
+      <UnderlyingIndexId>22101</UnderlyingIndexId>
+    </key>
+    <column id="329" parent="279" name="id">
       <DataType>integer|0s</DataType>
       <DefaultExpression>nextval(&apos;departments_id_seq&apos;::regclass)</DefaultExpression>
       <NotNull>1</NotNull>
@@ -4579,25 +4710,25 @@ sequence|table|20359|20360|1
       <StateNumber>2866</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="311" parent="277" name="max_salary">
+    <column id="330" parent="279" name="max_salary">
       <DataType>integer|0s</DataType>
       <Position>2</Position>
       <StateNumber>2866</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="312" parent="277" name="min_salary">
+    <column id="331" parent="279" name="min_salary">
       <DataType>integer|0s</DataType>
       <Position>3</Position>
       <StateNumber>2866</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="313" parent="277" name="department_name">
+    <column id="332" parent="279" name="department_name">
       <DataType>varchar(255)|0s</DataType>
       <Position>4</Position>
       <StateNumber>2866</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <index id="314" parent="277" name="departments_pkey">
+    <index id="333" parent="279" name="departments_pkey">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>20339</ObjectId>
@@ -4606,14 +4737,14 @@ sequence|table|20359|20360|1
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
-    <key id="315" parent="277" name="departments_pkey">
+    <key id="334" parent="279" name="departments_pkey">
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>20340</ObjectId>
       <Primary>1</Primary>
       <StateNumber>2866</StateNumber>
       <UnderlyingIndexId>20339</UnderlyingIndexId>
     </key>
-    <column id="316" parent="278" name="id">
+    <column id="335" parent="280" name="id">
       <DataType>integer|0s</DataType>
       <DefaultExpression>nextval(&apos;details_id_seq&apos;::regclass)</DefaultExpression>
       <NotNull>1</NotNull>
@@ -4621,26 +4752,26 @@ sequence|table|20359|20360|1
       <StateNumber>2867</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="317" parent="278" name="city">
+    <column id="336" parent="280" name="city">
       <DataType>varchar(255)|0s</DataType>
       <Position>2</Position>
       <StateNumber>2867</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="318" parent="278" name="phone_numbers">
+    <column id="337" parent="280" name="phone_numbers">
       <DataType>varchar(255)|0s</DataType>
       <Position>3</Position>
       <StateNumber>2867</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="319" parent="278" name="salary">
+    <column id="338" parent="280" name="salary">
       <DataType>smallint|0s</DataType>
       <NotNull>1</NotNull>
       <Position>4</Position>
       <StateNumber>2867</StateNumber>
       <TypeId>21</TypeId>
     </column>
-    <index id="320" parent="278" name="details_pkey">
+    <index id="339" parent="280" name="details_pkey">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>20348</ObjectId>
@@ -4649,14 +4780,14 @@ sequence|table|20359|20360|1
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
-    <key id="321" parent="278" name="details_pkey">
+    <key id="340" parent="280" name="details_pkey">
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>20349</ObjectId>
       <Primary>1</Primary>
       <StateNumber>2867</StateNumber>
       <UnderlyingIndexId>20348</UnderlyingIndexId>
     </key>
-    <column id="322" parent="279" name="id">
+    <column id="341" parent="281" name="id">
       <DataType>integer|0s</DataType>
       <DefaultExpression>nextval(&apos;employees_id_seq&apos;::regclass)</DefaultExpression>
       <NotNull>1</NotNull>
@@ -4664,38 +4795,38 @@ sequence|table|20359|20360|1
       <StateNumber>2868</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="323" parent="279" name="age">
+    <column id="342" parent="281" name="age">
       <DataType>smallint|0s</DataType>
       <NotNull>1</NotNull>
       <Position>2</Position>
       <StateNumber>2868</StateNumber>
       <TypeId>21</TypeId>
     </column>
-    <column id="324" parent="279" name="firstname">
+    <column id="343" parent="281" name="firstname">
       <DataType>varchar(255)|0s</DataType>
       <Position>3</Position>
       <StateNumber>2868</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="325" parent="279" name="lastname">
+    <column id="344" parent="281" name="lastname">
       <DataType>varchar(255)|0s</DataType>
       <Position>4</Position>
       <StateNumber>2868</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="326" parent="279" name="department_id">
+    <column id="345" parent="281" name="department_id">
       <DataType>integer|0s</DataType>
       <Position>5</Position>
       <StateNumber>2868</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="327" parent="279" name="detail_id">
+    <column id="346" parent="281" name="detail_id">
       <DataType>integer|0s</DataType>
       <Position>6</Position>
       <StateNumber>2868</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <foreign-key id="328" parent="279" name="fkgy4qe3dnqrm3ktd76sxp7n4c2">
+    <foreign-key id="347" parent="281" name="fkgy4qe3dnqrm3ktd76sxp7n4c2">
       <ColNames>department_id</ColNames>
       <ObjectId>20376</ObjectId>
       <RefColNames>id</RefColNames>
@@ -4705,7 +4836,7 @@ sequence|table|20359|20360|1
       <RefTableName>departments</RefTableName>
       <RefTableKind>table</RefTableKind>
     </foreign-key>
-    <foreign-key id="329" parent="279" name="fkcdydj09jhnoycb5oo9m05uom6">
+    <foreign-key id="348" parent="281" name="fkcdydj09jhnoycb5oo9m05uom6">
       <ColNames>detail_id</ColNames>
       <ObjectId>20381</ObjectId>
       <RefColNames>id</RefColNames>
@@ -4715,7 +4846,7 @@ sequence|table|20359|20360|1
       <RefTableName>details</RefTableName>
       <RefTableKind>table</RefTableKind>
     </foreign-key>
-    <index id="330" parent="279" name="employees_pkey">
+    <index id="349" parent="281" name="employees_pkey">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>20357</ObjectId>
@@ -4724,41 +4855,116 @@ sequence|table|20359|20360|1
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
-    <key id="331" parent="279" name="employees_pkey">
+    <key id="350" parent="281" name="employees_pkey">
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>20358</ObjectId>
       <Primary>1</Primary>
       <StateNumber>2868</StateNumber>
       <UnderlyingIndexId>20357</UnderlyingIndexId>
     </key>
-    <column id="332" parent="280" name="id">
+    <column id="351" parent="282" name="id">
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StateNumber>3943</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="352" parent="282" name="finish_of_date">
+      <DataType>varchar(255)|0s</DataType>
+      <Position>2</Position>
+      <StateNumber>3943</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="353" parent="282" name="group_name">
+      <DataType>varchar(255)|0s</DataType>
+      <Position>3</Position>
+      <StateNumber>3943</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="354" parent="282" name="start_of_date">
+      <DataType>varchar(255)|0s</DataType>
+      <Position>4</Position>
+      <StateNumber>3943</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="355" parent="282" name="groups_pkey">
+      <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>22108</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>3943</StateNumber>
+      <Unique>1</Unique>
+      <AccessMethodId>403</AccessMethodId>
+    </index>
+    <key id="356" parent="282" name="groups_pkey">
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>22109</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>3943</StateNumber>
+      <UnderlyingIndexId>22108</UnderlyingIndexId>
+    </key>
+    <column id="357" parent="283" name="courses_id">
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StateNumber>3944</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="358" parent="283" name="groups_id">
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+      <StateNumber>3944</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <foreign-key id="359" parent="283" name="fkhevyqbh4w8xk28d2d3s5ba5f7">
+      <ColNames>courses_id</ColNames>
+      <ObjectId>22137</ObjectId>
+      <RefColNames>id</RefColNames>
+      <RefColPositions>1</RefColPositions>
+      <StateNumber>3949</StateNumber>
+      <RefTableId>22096</RefTableId>
+      <RefTableName>courses</RefTableName>
+      <RefTableKind>table</RefTableKind>
+    </foreign-key>
+    <foreign-key id="360" parent="283" name="fknf81817avpypp4906n7bnm1r9">
+      <ColNames>groups_id</ColNames>
+      <ObjectId>22132</ObjectId>
+      <RefColNames>id</RefColNames>
+      <RefColPositions>1</RefColPositions>
+      <StateNumber>3948</StateNumber>
+      <RefTableId>22103</RefTableId>
+      <RefTableName>groups</RefTableName>
+      <RefTableKind>table</RefTableKind>
+    </foreign-key>
+    <column id="361" parent="284" name="id">
       <DataType>integer|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
       <StateNumber>1269</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="333" parent="280" name="name">
+    <column id="362" parent="284" name="name">
       <DataType>varchar(50)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>2</Position>
       <StateNumber>1269</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="334" parent="280" name="age">
+    <column id="363" parent="284" name="age">
       <DataType>integer|0s</DataType>
       <Position>3</Position>
       <StateNumber>1269</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="335" parent="280" name="position">
+    <column id="364" parent="284" name="position">
       <DataType>varchar(30)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>4</Position>
       <StateNumber>1269</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <index id="336" parent="280" name="mayor_pkey">
+    <index id="365" parent="284" name="mayor_pkey">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>16768</ObjectId>
@@ -4767,14 +4973,14 @@ sequence|table|20359|20360|1
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
-    <key id="337" parent="280" name="mayor_pkey">
+    <key id="366" parent="284" name="mayor_pkey">
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>16769</ObjectId>
       <Primary>1</Primary>
       <StateNumber>1269</StateNumber>
       <UnderlyingIndexId>16768</UnderlyingIndexId>
     </key>
-    <column id="338" parent="281" name="id">
+    <column id="367" parent="285" name="id">
       <DataType>integer|0s</DataType>
       <DefaultExpression>nextval(&apos;products_id_seq&apos;::regclass)</DefaultExpression>
       <NotNull>1</NotNull>
@@ -4782,34 +4988,34 @@ sequence|table|20359|20360|1
       <StateNumber>857</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="339" parent="281" name="productname">
+    <column id="368" parent="285" name="productname">
       <DataType>varchar(30)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>2</Position>
       <StateNumber>857</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="340" parent="281" name="manufacturer">
+    <column id="369" parent="285" name="manufacturer">
       <DataType>varchar(20)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>3</Position>
       <StateNumber>857</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="341" parent="281" name="productcount">
+    <column id="370" parent="285" name="productcount">
       <DataType>integer|0s</DataType>
       <DefaultExpression>0</DefaultExpression>
       <Position>4</Position>
       <StateNumber>857</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="342" parent="281" name="price">
+    <column id="371" parent="285" name="price">
       <DataType>numeric|0s</DataType>
       <Position>5</Position>
       <StateNumber>857</StateNumber>
       <TypeId>1700</TypeId>
     </column>
-    <index id="343" parent="281" name="products_pkey">
+    <index id="372" parent="285" name="products_pkey">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>16507</ObjectId>
@@ -4818,14 +5024,14 @@ sequence|table|20359|20360|1
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
-    <key id="344" parent="281" name="products_pkey">
+    <key id="373" parent="285" name="products_pkey">
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>16508</ObjectId>
       <Primary>1</Primary>
       <StateNumber>857</StateNumber>
       <UnderlyingIndexId>16507</UnderlyingIndexId>
     </key>
-    <column id="345" parent="282" name="id">
+    <column id="374" parent="286" name="id">
       <DataType>integer|0s</DataType>
       <DefaultExpression>nextval(&apos;sections_id_seq&apos;::regclass)</DefaultExpression>
       <NotNull>1</NotNull>
@@ -4833,13 +5039,13 @@ sequence|table|20359|20360|1
       <StateNumber>2869</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="346" parent="282" name="name">
+    <column id="375" parent="286" name="name">
       <DataType>varchar(255)|0s</DataType>
       <Position>2</Position>
       <StateNumber>2869</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <index id="347" parent="282" name="sections_pkey">
+    <index id="376" parent="286" name="sections_pkey">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>20364</ObjectId>
@@ -4848,63 +5054,134 @@ sequence|table|20359|20360|1
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
-    <key id="348" parent="282" name="sections_pkey">
+    <key id="377" parent="286" name="sections_pkey">
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>20365</ObjectId>
       <Primary>1</Primary>
       <StateNumber>2869</StateNumber>
       <UnderlyingIndexId>20364</UnderlyingIndexId>
     </key>
-    <column id="349" parent="283" name="id">
-      <DataType>integer|0s</DataType>
-      <DefaultExpression>nextval(&apos;students_id_seq&apos;::regclass)</DefaultExpression>
+    <column id="378" parent="287" name="studentid">
+      <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
-      <StateNumber>1424</StateNumber>
-      <TypeId>23</TypeId>
+      <StateNumber>3945</StateNumber>
+      <TypeId>20</TypeId>
     </column>
-    <column id="350" parent="283" name="age">
+    <column id="379" parent="287" name="formatstudy">
       <DataType>integer|0s</DataType>
-      <NotNull>1</NotNull>
       <Position>2</Position>
-      <StateNumber>1424</StateNumber>
+      <StateNumber>3945</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="351" parent="283" name="course">
+    <column id="380" parent="287" name="student_email">
       <DataType>varchar(255)|0s</DataType>
       <Position>3</Position>
-      <StateNumber>1424</StateNumber>
+      <StateNumber>3945</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="352" parent="283" name="name">
+    <column id="381" parent="287" name="student_first_name">
       <DataType>varchar(255)|0s</DataType>
       <Position>4</Position>
-      <StateNumber>1424</StateNumber>
+      <StateNumber>3945</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="353" parent="283" name="surname">
+    <column id="382" parent="287" name="student_last_name">
       <DataType>varchar(255)|0s</DataType>
       <Position>5</Position>
-      <StateNumber>1424</StateNumber>
+      <StateNumber>3945</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <index id="354" parent="283" name="students_pkey">
-      <ColNames>id</ColNames>
+    <column id="383" parent="287" name="groups_id">
+      <DataType>bigint|0s</DataType>
+      <Position>6</Position>
+      <StateNumber>3945</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <foreign-key id="384" parent="287" name="fkaipunbrrxko02lj9567rx25bp">
+      <ColNames>groups_id</ColNames>
+      <ObjectId>22142</ObjectId>
+      <RefColNames>id</RefColNames>
+      <RefColPositions>1</RefColPositions>
+      <StateNumber>3950</StateNumber>
+      <RefTableId>22103</RefTableId>
+      <RefTableName>groups</RefTableName>
+      <RefTableKind>table</RefTableKind>
+    </foreign-key>
+    <index id="385" parent="287" name="students_pkey">
+      <ColNames>studentid</ColNames>
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>16877</ObjectId>
+      <ObjectId>22118</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>1424</StateNumber>
+      <StateNumber>3945</StateNumber>
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
-    <key id="355" parent="283" name="students_pkey">
+    <key id="386" parent="287" name="students_pkey">
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>16878</ObjectId>
+      <ObjectId>22119</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>1424</StateNumber>
-      <UnderlyingIndexId>16877</UnderlyingIndexId>
+      <StateNumber>3945</StateNumber>
+      <UnderlyingIndexId>22118</UnderlyingIndexId>
     </key>
-    <column id="356" parent="284" name="id">
+    <column id="387" parent="288" name="teacherid">
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StateNumber>3946</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="388" parent="288" name="teacher_email">
+      <DataType>varchar(255)|0s</DataType>
+      <Position>2</Position>
+      <StateNumber>3946</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="389" parent="288" name="teacher_first_name">
+      <DataType>varchar(255)|0s</DataType>
+      <Position>3</Position>
+      <StateNumber>3946</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="390" parent="288" name="teacher_last_name">
+      <DataType>varchar(255)|0s</DataType>
+      <Position>4</Position>
+      <StateNumber>3946</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="391" parent="288" name="course_id">
+      <DataType>bigint|0s</DataType>
+      <Position>5</Position>
+      <StateNumber>3990</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <foreign-key id="392" parent="288" name="fkatoch4sve3umwmqovlf32sqt3">
+      <ColNames>course_id</ColNames>
+      <ObjectId>22168</ObjectId>
+      <RefColNames>id</RefColNames>
+      <RefColPositions>1</RefColPositions>
+      <StateNumber>3991</StateNumber>
+      <RefTableId>22096</RefTableId>
+      <RefTableName>courses</RefTableName>
+      <RefTableKind>table</RefTableKind>
+    </foreign-key>
+    <index id="393" parent="288" name="teachers_pkey">
+      <ColNames>teacherid</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>22125</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>3946</StateNumber>
+      <Unique>1</Unique>
+      <AccessMethodId>403</AccessMethodId>
+    </index>
+    <key id="394" parent="288" name="teachers_pkey">
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>22126</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>3946</StateNumber>
+      <UnderlyingIndexId>22125</UnderlyingIndexId>
+    </key>
+    <column id="395" parent="289" name="id">
       <DataType>integer|0s</DataType>
       <DefaultExpression>nextval(&apos;user1_id_seq&apos;::regclass)</DefaultExpression>
       <NotNull>1</NotNull>
@@ -4912,26 +5189,26 @@ sequence|table|20359|20360|1
       <StateNumber>1542</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="357" parent="284" name="name">
+    <column id="396" parent="289" name="name">
       <DataType>varchar(50)|0s</DataType>
       <Position>2</Position>
       <StateNumber>1542</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="358" parent="284" name="lastname">
+    <column id="397" parent="289" name="lastname">
       <DataType>varchar(50)|0s</DataType>
       <Position>3</Position>
       <StateNumber>1542</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="359" parent="284" name="age">
+    <column id="398" parent="289" name="age">
       <DataType>smallint|0s</DataType>
       <NotNull>1</NotNull>
       <Position>4</Position>
       <StateNumber>1542</StateNumber>
       <TypeId>21</TypeId>
     </column>
-    <index id="360" parent="284" name="user1_pkey">
+    <index id="399" parent="289" name="user1_pkey">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>16919</ObjectId>
@@ -4940,7 +5217,7 @@ sequence|table|20359|20360|1
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
-    <key id="361" parent="284" name="user1_pkey">
+    <key id="400" parent="289" name="user1_pkey">
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>16920</ObjectId>
       <Primary>1</Primary>

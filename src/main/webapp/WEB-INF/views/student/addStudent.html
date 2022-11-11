@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>student</title>
+</head>
+<body>
+<div style="text-align: center; margin-top: 300px; font-size: 40px">
+    <form th:action="@{/students/saveStudent}"
+          th:object="${student}"
+            method="POST"
+          style="text-align: center; margin-top: 300px; font-size: 40px">
+        <input type="hidden" name="id" th:field="*{studentId}">
+        <input type="text" name="studentFirstName" th:field="*{studentFirstName}" placeholder="Student First Name">
+        <input type="text" name="studentEmail" th:field="*{studentEmail}" placeholder="Student Email ">
+        <input type="text" name="studentLastName" th:field="*{studentLastName}" placeholder="Student Last Name">
+        <label> ONLINE
+            <input name="studyFormat" type="radio" th:value="ONLINE" th:field="*{formatStudy}">
+        </label>
+        <label> OFFLINE
+            <input name="studyFormat" type="radio" th:value="OFFLINE" th:field="*{formatStudy}">
+        </label>
+        <select th:field="${student.groupId}">
+            <option th:each="group:${listGroup}"
+                    th:value="${group.getGroupId()}"
+                    th:text="${group.getGroupName()}"
+            >
+            </option>
+        </select>
+        <input type="submit" value="Add Students">
+
+    </form>
+
+</div>
+
+</body>
+</html>

@@ -10,47 +10,73 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ad34eb0-284d-41ab-aba4-178472ce91ff" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/config/DbConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/config/DispatcherServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/config/WebConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/controller/CompanyController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/dao/CompanyDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/dao/CompanyDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/dao/CourseDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/dao/CourseDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/dao/GroupDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/dao/GroupDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/dao/StudentDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/dao/StudentDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/dao/TeacherDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/dao/TeacherDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/model/Company.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/model/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/model/ForStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/model/Group.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/model/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/model/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/service/CompanyService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/service/CompanyServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addCompanies.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/companies.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/course.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/group.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/student.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/teacher.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/updateCompany.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/controller/CourseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/controller/GroupController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/controller/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/controller/TeacherController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/service/CourseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/service/GroupService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/service/TeacherService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/service/impl/CourseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/service/impl/GroupServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/service/impl/StudentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/service/impl/TeacherServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/company/companies.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/company/updateCompany.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/course/addCourse.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/course/course.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/course/uppdateCourse.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/group/addGroup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/group/groups.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/group/uppdateGroup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/student/addStudent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/student/student.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/student/updateStudent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/teacher/addTeacher.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/teacher/teacher.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/teacher/updateTeacher.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fd837fcd-d3a8-461e-87e3-c7222b5dc103.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/fd837fcd-d3a8-461e-87e3-c7222b5dc103.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fd837fcd-d3a8-461e-87e3-c7222b5dc103/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/fd837fcd-d3a8-461e-87e3-c7222b5dc103/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kg/City/practice/config/DbConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/config/DbConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kg/City/practice/controller/CompanyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/controller/CompanyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kg/City/practice/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kg/City/practice/dao/CompanyDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/dao/CompanyDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kg/City/practice/dao/CompanyDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/dao/CompanyDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kg/City/practice/dao/CourseDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/dao/CourseDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kg/City/practice/dao/CourseDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/dao/CourseDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kg/City/practice/dao/GroupDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/dao/GroupDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kg/City/practice/dao/GroupDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/dao/GroupDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kg/City/practice/dao/StudentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/dao/StudentDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kg/City/practice/dao/StudentDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/dao/StudentDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kg/City/practice/dao/TeacherDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/dao/TeacherDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kg/City/practice/dao/TeacherDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/dao/TeacherDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kg/City/practice/model/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/model/Company.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kg/City/practice/model/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/model/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kg/City/practice/model/ForStudent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kg/City/practice/model/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/model/Group.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kg/City/practice/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/model/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kg/City/practice/model/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/model/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kg/City/practice/service/CompanyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/service/CompanyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kg/City/practice/service/CompanyServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/service/impl/CompanyServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addCompanies.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/company/addCompanies.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/companies.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/course.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/group.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/student.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/teacher.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/updateCompany.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +106,7 @@
     </option>
     <option name="myId2Visible">
       <map>
-        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
         <entry key="com.haulmont.jpb.jpaPalette" value="false" />
         <entry key="com.haulmont.jpb.jpaStructure" value="false" />
       </map>
@@ -102,32 +128,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/kursa/IdeaProjects/City_LMS/src/main/webapp/WEB-INF/views",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
-    "spring.configuration.checksum": "5f9260827be0651cd3f885ecce0a647d"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/kursa/IdeaProjects/City_LMS/src/main/webapp/WEB-INF/views&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;5f9260827be0651cd3f885ecce0a647d&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="kg.City.practice.config" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\kursa\IdeaProjects\City_LMS\src\main\webapp\WEB-INF\views" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kursa\IdeaProjects\City_LMS\src\main\webapp\WEB-INF\views\Teacher" />
+      <recent name="C:\Users\kursa\IdeaProjects\City_LMS\src\main\webapp\WEB-INF\views\Company" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="kg.City.practice.service" />
@@ -221,18 +256,6 @@
         </option>
       </method>
     </configuration>
-    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
-      <deployment />
-      <server-settings />
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -243,7 +266,21 @@
       <option name="presentableId" value="Default" />
       <updated>1666976596162</updated>
       <workItem from="1666976597762" duration="5424000" />
-      <workItem from="1667029557938" duration="28144000" />
+      <workItem from="1667029557938" duration="28453000" />
+      <workItem from="1667145612284" duration="13136000" />
+      <workItem from="1667219289699" duration="15071000" />
+      <workItem from="1667309776350" duration="14546000" />
+      <workItem from="1667385168369" duration="24674000" />
+      <workItem from="1667471903701" duration="21676000" />
+      <workItem from="1667570442562" duration="14393000" />
+      <workItem from="1667647560767" duration="25511000" />
+      <workItem from="1667711522153" duration="1342000" />
+      <workItem from="1667744070501" duration="14020000" />
+      <workItem from="1667833565098" duration="1636000" />
+      <workItem from="1667851473060" duration="800000" />
+      <workItem from="1667918687119" duration="5821000" />
+      <workItem from="1668014089798" duration="8545000" />
+      <workItem from="1668174013735" duration="380000" />
     </task>
     <servers />
   </component>

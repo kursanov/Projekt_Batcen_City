@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form th:method="patch"  th:action="@{/students/saveUpdateStudent}" th:object="${student}"
+      style="text-align: center; margin-top: 300px; font-size: 40px">
+    <input type="hidden" name="id" th:field="*{studentId}">
+    <input type="text" th:value="${student.studentFirstName}" th:field="*{studentFirstName}">
+    <input type="text" th:value="${student.studentEmail}" th:field="*{studentEmail}">
+    <input type="text" th:value="${student.studentLastName}" th:field="*{studentLastName}">
+    <input type="text" th:value="${student.formatStudy}" th:field="*{formatStudy}">
+    <select th:field="${student.groupId}">
+        <option th:each="group:${listGroup}"
+                th:value="${group.getGroupId()}"
+                th:text="${group.getGroupName()}">
+        </option>
+    </select>
+    <br>
+    <input type="submit" value="Update">
+</form>
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form th:method="patch"  th:action="@{/teachers/saveUpdateTeacher}" th:object="${teacher}"
+      style="text-align: center; margin-top: 300px; font-size: 40px">
+    <input type="hidden" name="id" th:field="*{teacherId}">
+    <input type="text" th:value="${teacher.teacherFirstName}" th:field="*{teacherFirstName}">
+    <input type="text" th:value="${teacher.teacherEmail}" th:field="*{teacherEmail}">
+    <input type="text" th:value="${teacher.teacherLastName}" th:field="*{teacherLastName}">
+    <select th:field="${teacher.courseId}">
+        <option th:each="course:${listCourse}"
+                th:value="${course.getCourseId()}"
+                th:text="${course.getCourseName()}">
+        </option>
+    </select>
+    <br>
+    <input type="submit" value="Update">
+</form>
+</body>
+</html>

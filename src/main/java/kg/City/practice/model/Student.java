@@ -1,9 +1,17 @@
 package kg.City.practice.model;
 
-import jakarta.persistence.*;
+import javax.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
 @Entity
-@Table(name = "students")
+@Table(name = "students" )
 public class Student {
 
     @Id
@@ -12,77 +20,23 @@ public class Student {
     @SequenceGenerator(name = "student_generator",
             sequenceName = "student_sequence",
             allocationSize = 1)
-    private long studentId;
+    private Long studentId;
     @Column(name = "student_first_name")
     private String studentFirstName;
     @Column(name = "student_email")
     private String studentEmail;
     @Column(name = "student_last_name")
     private String studentLastName;
-    @Column(name = "student_duration")
-    private ForStudent forStudent;
+    @Enumerated
+    private FormatStudy formatStudy;
+    @ManyToOne(fetch = FetchType.LAZY ,cascade = {CascadeType.REMOVE,CascadeType.REFRESH})
+    @JoinColumn(name = "groups_id")
+    private  Group groups;
 
-    @ManyToOne
-    @JoinColumn(name = "group")
-    private Group group;
 
-    public Student(){
-    }
 
-    public Student(String studentFirstName, String studentEmail, String studentLastName, ForStudent forStudent) {
-        this.studentFirstName = studentFirstName;
-        this.studentEmail = studentEmail;
-        this.studentLastName = studentLastName;
-        this.forStudent = forStudent;
-    }
-
-    public long getStudentId() {
-        return studentId;
-    }
-
-    public void setStudentId(long studentId) {
-        this.studentId = studentId;
-    }
-
-    public String getStudentFirstName() {
-        return studentFirstName;
-    }
-
-    public void setStudentFirstName(String studentFirstName) {
-        this.studentFirstName = studentFirstName;
-    }
-
-    public String getStudentEmail() {
-        return studentEmail;
-    }
-
-    public void setStudentEmail(String studentEmail) {
-        this.studentEmail = studentEmail;
-    }
-
-    public String getStudentLastName() {
-        return studentLastName;
-    }
-
-    public void setStudentLastName(String studentLastName) {
-        this.studentLastName = studentLastName;
-    }
-
-    public ForStudent getForStudent() {
-        return forStudent;
-    }
-
-    public void setForStudent(ForStudent forStudent) {
-        this.forStudent = forStudent;
-    }
-
-    public Group getGroup() {
-        return group;
-    }
-
-    public void setGroup(Group group) {
-        this.group = group;
-    }
+    @Transient
+    private Long groupId;
 
     @Override
     public String toString() {
@@ -91,7 +45,14 @@ public class Student {
                 ", studentFirstName='" + studentFirstName + '\'' +
                 ", studentEmail='" + studentEmail + '\'' +
                 ", studentLastName='" + studentLastName + '\'' +
-                ", forStudent=" + forStudent +
+                ", formatStudy=" + formatStudy +
+                ", groupId=" + groupId +
                 '}';
+    }
+
+    public enum FormatStudy {
+
+        ONLINE,
+        OFFLINE
     }
 }

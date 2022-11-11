@@ -1,7 +1,15 @@
 package kg.City.practice.model;
 
-import jakarta.persistence.*;
+import javax.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
 @Entity
 @Table(name = "teachers")
 public class Teacher {
@@ -20,67 +28,12 @@ public class Teacher {
     @Column(name = "teacher_last_name")
     private String teacherLastName;
 
-    @OneToOne
-    @JoinColumn(name = "course")
-    private Course cours;
+    @OneToOne(fetch = FetchType.LAZY, cascade = {CascadeType.REMOVE, CascadeType.REFRESH})
+    @JoinTable(name = "teachers_courses", joinColumns = @JoinColumn(name = "teachers_id")
+            , inverseJoinColumns = @JoinColumn(name = "courses_id"))
+    private Course course;
 
+    @Transient
+    private Long courseId;
 
-    public Teacher(){
-    }
-
-    public Teacher(String teacherFirstName, String teacherEmail, String teacherLastName) {
-        this.teacherFirstName = teacherFirstName;
-        this.teacherEmail = teacherEmail;
-        this.teacherLastName = teacherLastName;
-    }
-
-    public long getTeacherId() {
-        return teacherId;
-    }
-
-    public void setTeacherId(long teacherId) {
-        this.teacherId = teacherId;
-    }
-
-    public String getTeacherFirstName() {
-        return teacherFirstName;
-    }
-
-    public void setTeacherFirstName(String teacherFirstName) {
-        this.teacherFirstName = teacherFirstName;
-    }
-
-    public String getTeacherEmail() {
-        return teacherEmail;
-    }
-
-    public void setTeacherEmail(String teacherEmail) {
-        this.teacherEmail = teacherEmail;
-    }
-
-    public String getTeacherLastName() {
-        return teacherLastName;
-    }
-
-    public void setTeacherLastName(String teacherLastName) {
-        this.teacherLastName = teacherLastName;
-    }
-
-    public Course getCours() {
-        return cours;
-    }
-
-    public void setCours(Course cours) {
-        this.cours = cours;
-    }
-
-    @Override
-    public String toString() {
-        return "Teacher{" +
-                "teacherId=" + teacherId +
-                ", teacherFirstName='" + teacherFirstName + '\'' +
-                ", teacherEmail='" + teacherEmail + '\'' +
-                ", teacherLastName='" + teacherLastName + '\'' +
-                '}';
-    }
 }

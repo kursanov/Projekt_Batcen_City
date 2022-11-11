@@ -35,7 +35,7 @@ public class DbConfig {
         LocalContainerEntityManagerFactoryBean factoryBean = new LocalContainerEntityManagerFactoryBean();
         factoryBean.setJpaVendorAdapter(jpaVendorAdapter());
         factoryBean.setDataSource(getDataSource());
-        factoryBean.setPackagesToScan("practice");
+        factoryBean.setPackagesToScan("kg.City.practice");
         factoryBean.setJpaProperties(jpaProperties());
         return factoryBean;
     }
