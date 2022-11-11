@@ -9,75 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ad34eb0-284d-41ab-aba4-178472ce91ff" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/controller/CourseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/controller/GroupController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/controller/StudentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/controller/TeacherController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/service/CourseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/service/GroupService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/service/StudentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/service/TeacherService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/service/impl/CourseServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/service/impl/GroupServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/service/impl/StudentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/service/impl/TeacherServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/company/companies.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/company/updateCompany.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/course/addCourse.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/course/course.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/course/uppdateCourse.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/group/addGroup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/group/groups.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/group/uppdateGroup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/student/addStudent.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/student/student.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/student/updateStudent.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/teacher/addTeacher.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/teacher/teacher.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/teacher/updateTeacher.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fd837fcd-d3a8-461e-87e3-c7222b5dc103.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/fd837fcd-d3a8-461e-87e3-c7222b5dc103.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fd837fcd-d3a8-461e-87e3-c7222b5dc103/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/fd837fcd-d3a8-461e-87e3-c7222b5dc103/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kg/City/practice/config/DbConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/config/DbConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kg/City/practice/controller/CompanyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/controller/CompanyController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kg/City/practice/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/controller/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kg/City/practice/dao/CompanyDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/dao/CompanyDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kg/City/practice/dao/CompanyDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/dao/CompanyDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kg/City/practice/dao/CourseDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/dao/CourseDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kg/City/practice/dao/CourseDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/dao/CourseDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kg/City/practice/dao/GroupDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/dao/GroupDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kg/City/practice/dao/GroupDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/dao/GroupDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kg/City/practice/dao/StudentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/dao/StudentDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kg/City/practice/dao/StudentDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/dao/StudentDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kg/City/practice/dao/TeacherDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/dao/TeacherDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kg/City/practice/dao/TeacherDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/dao/TeacherDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kg/City/practice/model/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/model/Company.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kg/City/practice/model/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/model/Course.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kg/City/practice/model/ForStudent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kg/City/practice/model/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/model/Group.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kg/City/practice/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/model/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kg/City/practice/model/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/model/Teacher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kg/City/practice/service/CompanyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/service/CompanyService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kg/City/practice/service/CompanyServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/service/impl/CompanyServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addCompanies.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/company/addCompanies.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/companies.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/course.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/group.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/student.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/teacher.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/updateCompany.html" beforeDir="false" />
-    </list>
+    <list default="true" id="9ad34eb0-284d-41ab-aba4-178472ce91ff" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -281,6 +213,7 @@
       <workItem from="1667918687119" duration="5821000" />
       <workItem from="1668014089798" duration="8545000" />
       <workItem from="1668174013735" duration="380000" />
+      <workItem from="1668179920379" duration="426000" />
     </task>
     <servers />
   </component>
