@@ -9,11 +9,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ad34eb0-284d-41ab-aba4-178472ce91ff" name="Changes" comment="" />
+    <list default="true" id="9ad34eb0-284d-41ab-aba4-178472ce91ff" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/config/SecurityWebApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/config/SpringSecurity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fd837fcd-d3a8-461e-87e3-c7222b5dc103.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/fd837fcd-d3a8-461e-87e3-c7222b5dc103.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kg/City/practice/controller/TeacherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kg/City/practice/controller/TeacherController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/student/student.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/student/student.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/teacher/teacher.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/teacher/teacher.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -21,6 +33,7 @@
         <option value="Enum" />
         <option value="Interface" />
         <option value="HTML File" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -213,7 +226,9 @@
       <workItem from="1667918687119" duration="5821000" />
       <workItem from="1668014089798" duration="8545000" />
       <workItem from="1668174013735" duration="380000" />
-      <workItem from="1668179920379" duration="426000" />
+      <workItem from="1668179920379" duration="2361000" />
+      <workItem from="1668436508596" duration="3465000" />
+      <workItem from="1668504057576" duration="1090000" />
     </task>
     <servers />
   </component>

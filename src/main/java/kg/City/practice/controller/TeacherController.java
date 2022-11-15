@@ -1,7 +1,6 @@
 package kg.City.practice.controller;
 
 import kg.City.practice.model.Course;
-import kg.City.practice.model.Student;
 import kg.City.practice.model.Teacher;
 import kg.City.practice.service.CourseService;
 import kg.City.practice.service.TeacherService;
@@ -14,6 +13,11 @@ import java.util.List;
 @Controller
 @RequestMapping("/teachers")
 public class TeacherController {
+
+    @GetMapping("/teacher_info")
+    public String getTeacher(){
+        return "/teachers";
+    }
 
     private final TeacherService teacherService;
 
